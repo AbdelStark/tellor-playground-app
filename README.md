@@ -1,7 +1,7 @@
-# Tellor Giveaway
+# Tellor Playground
 [Add A New Data Point Using Tellor Playground](https://gitcoin.co/issue/tellor-io/usingtellor/29/100024322)
 
-[![hackathon](https://img.youtube.com/vi/LnQjB0qcfSg/0.jpg)](https://www.youtube.com/watch?v=LnQjB0qcfSg)
+[![hackathon](https://img.youtube.com/vi/3qVG3XSZrzk/0.jpg)](https://www.youtube.com/watch?v=3qVG3XSZrzk)
 
 ## Online Demo
 Try it on your own! 
