@@ -1,5 +1,5 @@
 # Tellor Giveaway
-[Build A Project Using Tellor](https://gitcoin.co/issue/tellor-io/usingtellor/28/100024321)
+[Add A New Data Point Using Tellor Playground](https://gitcoin.co/issue/tellor-io/usingtellor/29/100024322)
 
 [![hackathon](https://img.youtube.com/vi/LnQjB0qcfSg/0.jpg)](https://www.youtube.com/watch?v=LnQjB0qcfSg)
 
@@ -7,6 +7,10 @@
 Try it on your own! 
 
 [Online Demo](http://tellor.playground.surge.sh/)
+### Add A New Data Point Using Tellor Playground
+You can track data points and register new.
+
+Simply go the tracker page and add your favorite currency or any data point.
 
 ### Front-End web application
 
