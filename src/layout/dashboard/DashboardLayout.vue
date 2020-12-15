@@ -3,6 +3,7 @@
     <side-bar title="Tellor Playground">
       <template slot="links">
         <sidebar-link :name="$t('sidebar.dashboard')" icon="tim-icons icon-chart-pie-36" to="/dashboard"/>
+        <sidebar-link name="Tracker" icon="tim-icons icon-bulb-63" to="/tracker"/>
       </template>
     </side-bar>
     <div class="main-panel">

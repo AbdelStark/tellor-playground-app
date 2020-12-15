@@ -26,6 +26,7 @@ import i18n from "./i18n";
 import './registerServiceWorker';
 import Web3 from "web3";
 import {TellorPlayground} from "@/services/TellorPlayground";
+import {TellorTracker} from "@/services/TellorTracker";
 
 Vue.use(BlackDashboard);
 Vue.use(VueRouter);
@@ -69,10 +70,12 @@ function buildSettings(tellorPlaygroundAddress) {
 
 function buildServices(settings) {
   initWeb3Environment();
+  const tellorPlayground = new TellorPlayground(window.web3, window.ethereum.selectedAddress, settings.tellorPlaygroundAddress);
   return {
     web3: window.web3,
     ethereum: window.ethereum,
-    tellorPlayground: new TellorPlayground(window.web3, window.ethereum.selectedAddress, settings.tellorPlaygroundAddress),
+    tellorPlayground: tellorPlayground,
+    tellorTracker: new TellorTracker(localStorage, tellorPlayground),
   };
 }
 

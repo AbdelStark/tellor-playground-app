@@ -23,9 +23,6 @@ export class TellorPlayground{
         });
     }
 
-
-
-
     async getTimestampbyRequestIDandIndex(id, index){
         return await this.playground.methods.getTimestampbyRequestIDandIndex(id, index).call({
             from: this.senderAddress,
