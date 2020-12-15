@@ -6,7 +6,8 @@
 ## Online Demo
 Try it on your own! 
 
-[Online Demo](http://tellor.playground.surge.sh/)
+[Online Demo](http://tellorplayground.surge.sh/)
+
 ### Add A New Data Point Using Tellor Playground
 You can track data points and register new.
 
